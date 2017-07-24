@@ -560,7 +560,6 @@ background-color: #5E97B8;
     .place3
     .place4
     .place5 {
-        
         padding: 30px;
         height: 750px;
     }
@@ -584,7 +583,7 @@ background-color: #5E97B8;
     .place5 h2 {
         
         font-size: 20px;
-        *
+    
     }
     
     .place1
@@ -595,8 +594,6 @@ background-color: #5E97B8;
         
         font-size: 12px;
     }
-    
-      
     
 }
 /*END LINK places.html SECTION*/
