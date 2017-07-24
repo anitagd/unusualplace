@@ -1,0 +1,602 @@
+/*  COLORS in the website  https://coolors.co/5e97b8-e8ddd4-704226-2a3743-eff1f3 */
+
+/* ---------------------------- Google Fonts --------------------------  */
+    @import url('https://fonts.googleapis.com/css?family=Sriracha');
+    @import url('https://fonts.googleapis.com/css?family=Bad+Script|Courgette');
+    @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+    @import url('https://fonts.googleapis.com/css?family=Molle:400i');
+    @import url('https://fonts.googleapis.com/css?family=Droid+Sans|PT+Sans+Narrow|Roboto');
+    @import url('https://fonts.googleapis.com/css?family=Aguafina+Script');
+
+
+
+* {
+
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+li {
+
+    list-style: none;
+    display: inline-block
+}
+
+a {
+
+    text-decoration: none;
+    transition: all 500ms ease-in-out;
+}
+
+a:hover,
+a:active {
+
+    text-decoration: none;
+}
+
+h1,
+h4 {
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+p {
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.btn {
+
+    transition: all 300ms ease-in-out;
+    font-weight: 400 !important;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+
+    background-color: #ededed !important;
+    color: #3c3c3c !important;
+    border: 1px solid #fff !important;
+}
+
+
+/*NAVIGATION*/
+
+
+.navbar {
+    
+    background-color: #222222 !important;
+    text-transform: uppercase;
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
+    font-weight: 700;
+}
+
+.navbar a {
+    
+    color: #fff !important;
+    opacity: 0.7;
+}
+
+
+.navbar a:hover {
+    
+    opacity: 1;
+    background-color: #111111 !important;
+}
+
+
+/*HEADER*/
+
+.header {
+    
+    height: 600px;
+    width: 100%;
+    padding: 30px 0 30px;
+    margin-top: 50px;
+    background-image: url(../images/bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.header img {
+    
+    height: 350px;
+    width: 450px;
+    margin: 70px 0 0 40px;
+}
+
+.header h2 {
+    
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 30px;
+    font-family: 'Molle', cursive;
+    text-transform: full-width;
+    
+}
+
+.header p,
+.header button {
+    
+    margin-top: 20px;
+}
+
+
+.header .btn {
+    
+    border-radius: 0;
+    margin: 40px 20px;
+}
+
+@media(max-width:768px) {
+    
+    .header {
+        
+        padding: 30px;
+        height: 750px;
+    }
+    
+    .header img {
+        
+        width: 90%;
+        height: 250px;
+        margin: 15px 0 0 20px;
+    }
+    
+    .header .btn {
+        
+        font-size: 10px;
+        margin-left: 20px;
+    }
+    
+    .header h1 {
+        
+        font-size: 20px;
+        *
+    }
+    
+    .header p {
+        
+        font-size: 12px;
+    }
+    
+    .header a
+    
+    
+}
+
+
+/*SERVICES*/
+
+.services {
+    
+    padding: 80px 0 80px;
+    text-align: center;
+}
+
+
+.services h1{
+    font-family: 'Molle', cursive;
+    font-size: 30px;
+}
+
+.services h2,
+.services h4 {
+    
+    color: #4c4c4c;
+    margin: 20px 0 20px;
+}
+
+
+.services p {
+    
+    color: #737373;
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+
+
+.services i {
+    
+    height: 80px;
+    width: 80px;
+    font-size: 30px;
+    padding: 25px 20px;
+    border-radius: 50%;
+    background-color: #6699cc;
+    color: #fff;
+}
+
+
+@media(max-width:768px) {
+    
+    .services {
+        
+        padding: 30px;
+    }
+}
+
+
+/*PLACES*/
+
+.places {
+    
+    padding: 50px 0 80px;
+    text-align: center;
+    background-color: #3399ff;
+}
+
+.places h2,
+.placs p {
+    
+    color: #fff;
+}
+
+.places p {
+    
+    padding-bottom: 40px;
+}
+
+.places .packages {
+    
+    padding: 30px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.packages h4 {
+    
+    color: #4c4c4c;
+}
+
+
+.packages h5 {
+    
+    color: darkblue;
+    font-weight: 700;
+}
+
+.packages p {
+    
+    color: #737373;
+}
+
+.packages button {
+    
+    margin-top: 10px;
+}
+
+
+@media(max-width:768px) {
+    
+    .places
+        
+        padding: 30px;
+    }
+    
+    .packages {
+        
+        width: 80%;
+        margin-left: 25px;
+    }
+}
+
+
+/*MAP*/
+
+.map {
+    
+    padding: 50px 0 80px;
+    text-align: center;
+}
+
+.map b,
+.map h2 {
+    
+    margin: 20px 0 20px;
+    color: #4c4c4c;
+    text-align: center;
+}
+
+
+.map p {
+    
+    color: #737373;
+    text-align: center;
+}
+
+.map-frame {
+    
+    height: 450px;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+
+.map i {
+    
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 50%;
+    background-color: #a0db8e;
+    color: #fff;
+}
+
+.map a:hover i {
+    
+    background-color: #709963;
+}
+
+@media(max-width:768px) {
+    
+    .map
+        
+        padding: 5px;
+    }
+    
+
+/*MAGAZINE*/
+
+.magazine {
+    
+    padding: 50px 0 80px;
+    background-color: #3399ff;
+    text-align: center;
+    color: #fff;
+}
+
+.magazine h2 {
+    
+    color: #5e5e5e;
+}
+
+.magazine p {
+    
+    padding-bottom: 30px;
+}
+
+.magazine img {
+    
+    width: 180px;
+    opacity: 0.6;
+    cursor: pointer;
+    margin: 40px 0;
+    transition: all 500ms ease-in-out;
+}
+
+
+.magazine li:hover img {
+    
+    opacity: 1;
+}
+
+
+/*CONTACT*/
+
+.contact {
+    
+    padding: 50px 0 80px;
+    text-align: center;
+}
+
+.contact p {
+    
+    padding-bottom: 80px;
+    color: #737373;
+}
+
+.contact h2 {
+    
+    color: #4c4c4c;
+    margin: 20px 0 20px;
+}
+
+.contact .input-group {
+    
+    margin-bottom: 25px;
+}
+
+.contact .form-control {
+    
+    border-radius: 0 !important;
+}
+
+.contact span {
+    
+    border-radius: 0 !important;
+}
+
+.contact .btn {
+    
+    border-radius: 0;
+    width: 100%;
+    font-size: 15px;
+    background-color: #E8DDD4;
+    color:#704226;
+}
+
+.contact .btn:hover {
+    
+    background-color: #a85959 !important;
+    color: #fff !important;
+}
+
+
+/*FOOTER*/
+
+.footer {
+    
+    padding: 30px;
+    color: #cccccc;
+    background-color: #222222;
+}
+
+
+.footer .social {
+    
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #cccccc;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+
+.footer input {
+    
+    height: 40px;
+    width: 160px;
+    padding: 5px;
+    border: none;
+    background-color: #cccccc;
+    color: #000;
+}
+
+.footer .btn {
+    
+    padding: 10px 5px 10px;
+    margin: -3px 0 0 5px;
+}
+
+
+/* Link Place.html */
+
+/*PLACES SECTION*/
+
+.place1
+.place2   
+.place3  
+.place4  
+.place5 {
+    height: 500px;
+    width: 100%;
+    padding: 30px 0 30px;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.place1 {
+background-color: #2A3743;
+}
+
+.place2 {
+background-color: #EFF1F3;
+}
+
+.place3 {
+background-color: #E8DDD4;
+}
+
+.place4 {
+background-color: #B19788;
+}
+
+.place5 {
+background-color: #5E97B8;
+}
+
+.place1  img 
+.place2  img 
+.place3  img 
+.place4  img
+.place5  img {
+    height: 350px;
+    width: 350px;
+    margin: 70px 10px 10px 50px;
+}
+
+.place1  h2 
+.place2  h2 
+.place3  h2 
+.place4  h2 
+.place5  h2 {  
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Molle', cursive;
+    padding-top: 50px;
+}
+
+.place1  h1,
+.place2  h1,
+.place3  h1,
+.place4  h1,
+.place5  h1,
+.place1  p,
+.place2  p,
+.place3  p,
+.place4  p,
+.place5  p,
+.place1  button 
+.place2  button 
+.place3  button 
+.place4  button 
+.place5  button {
+    margin-top: 20px;
+}
+
+
+@media(max-width:768px) {
+    
+    .place1
+    .place2
+    .place3
+    .place4
+    .place5 {
+        
+        padding: 30px;
+        height: 750px;
+    }
+    
+    .place1
+    .place2
+    .place3
+    .place4
+    .place5 img {
+        
+        width: 90%;
+        height: 250px;
+        margin: 15px 0 0 20px;
+    }
+    
+    
+    .place1
+    .place2
+    .place3
+    .place4
+    .place5 h2 {
+        
+        font-size: 20px;
+        *
+    }
+    
+    .place1
+    .place2
+    .place3
+    .place4
+    .place5 p {
+        
+        font-size: 12px;
+    }
+    
+      
+    
+}
+/*END LINK places.html SECTION*/
