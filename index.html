@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animate.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -35,14 +37,14 @@
                 <span class="icon-bar"></span>
                 </button>
 
-                <a href="index.html" class="navbar-brand">Unusual Travel</a>
+                <a href="index.html" class="navbar-brand"><span style="color:#5E97B8;font-size: 140%;font-weight:700">Unusual Travel</span></a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#services">services</a></li>   
                     <li><a href="#places">Places</a></li>       
-                    <li><a href="#map">map</a></li>             
+                    <li><a href="#map">Map</a></li>             
                     <li><a href="#magazine">Trusted</a></li>     
                     <li><a href="#contact">Contact Us</a></li>
                 </ul>
@@ -60,11 +62,11 @@
                 <div class="col-md-6 col-sx-6 wow bounceInLeft">
                     <h2>Unusual Place to visit in ... </h2>
                     <p><span style="color:#5E97B8;font-weight:700;font-size:130%">Arches National Park</span>: People come from all over the world to visit Arches National Park, and visiting Delicate Arch is on the top of many visitors' to-do lists. In a park with over 2,000 stone arches, this particular free-standing arch has become a widely recognized symbol of the state of Utah and one of the most famous geologic features in the world.</p>
-                    <a href="#places" class="btn btn-sm btn-success" role="button"><span class="glyphicon glyphicon-usd"></span>Buy Now</a>
-                    <a href="places.html" class="btn btn-sm btn-warning" role="button"><span class="glyphicon glyphicon-sunglasses"></span> View Detail</a>
+                    <a href="#places" class="btn btn-sm btn-success" role="button" data-toggle="tooltip" title="Hooray!"><span class="glyphicon glyphicon-usd"></span>Buy Now</a>
+                    <a href="places.html" class="btn btn-sm btn-warning" role="button" data-toggle="tooltip" data-placement="right" title="Let's GO!!!"><span class="glyphicon glyphicon-sunglasses"></span> View Detail</a>
                 </div>
                 <div class="col-md-6 col-sm-6 wow bounceInRight">
-                    <img src="images/delicate-arch960587.png" alt="Delicate Arches">
+                    <img src="images/delicate-arch960587.png" class="img-responsive" alt="Delicate Arches">
                 </div>
             </div>
         </div>
@@ -119,7 +121,7 @@
                         <p>Belize</p>
                         <img src="images/Belize150.jpg" class="img-rounded" alt="Belize">
                         <br><br><br>
-                        <a href="places.html#place2" class="btn btn-md btn-warning" role="button"><span class="glyphicon glyphicon-sunglasses"></span> View Detail</a>
+                        <a href="places.html#place2" class="btn btn-md btn-warning" role="button" data-toggle="tooltip" data-placement="left" title="That's Great"><span class="glyphicon glyphicon-sunglasses"></span> View Detail</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 wow flipInY" data-wow-delay="1.2s">
@@ -129,7 +131,7 @@
                         <p>Bolivia</p>
                         <img src="images/bolivia150.jpg" class="img-rounded" alt="Bolivia">
                         <br><br><br>
-                        <a href="places.html#place3" class="btn btn-md btn-warning" role="button">
+                        <a href="places.html#place3" class="btn btn-md btn-warning" role="button" data-toggle="tooltip" data-placement="top" title="OH Happiness!">
                         <span class="glyphicon glyphicon-sunglasses"></span> View Detail</a>
                     </div>
                 </div>
@@ -140,7 +142,7 @@
                         <p>Turkey</p>
                         <img src="images/turkey150.jpg" class="img-rounded" alt="Cappadocia">
                         <br><br><br>
-                        <a href="places.html#place4" class="btn btn-md btn-warning" role="button"><span class="glyphicon glyphicon-sunglasses"></span> View Detail</a>
+                        <a href="places.html#place4" class="btn btn-md btn-warning" role="button" data-toggle="tooltip" data-placement="bottom" title="Oh my!"><span class="glyphicon glyphicon-sunglasses"></span> View Detail</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 wow flipInY" data-wow-delay="2s">
@@ -149,8 +151,8 @@
                         <h5>Arctic Igloo Resort</h5>
                         <p>Finland</p>
                         <img src="images/finland150.jpg" class="img-rounded" alt="Finland">
-                        <br><br>
-                        <a href="places.html#place5" class="btn btn-md btn-warning" role="button"><span class="glyphicon glyphicon-sunglasses"></span> View Detail</a>
+                        <br><br><br>
+                        <a href="places.html#place5" class="btn btn-md btn-warning" role="button" data-toggle="tooltip" data-placement="right" title="Fantastic!"><span class="glyphicon glyphicon-sunglasses"></span> View Detail</a>
                     </div>
                 </div>
             </div>
@@ -168,7 +170,7 @@
                 <h2 class="wow fadeInUp">Map</h2>
                 <p class="wow fadeInUp" data-wow-delay="0.4">Discover our unusual hidden attractions, cool sights, and unusual things to do, flights, and save maps</p>
                 <div class="map-frame">
-                    <iframe src="https://www.google.com/maps/d/embed?mid=13EQtQZDIE8eloI_K5q1L2SJ49tU" width="100%" height="480" frameborder="0" style="border: 1" allowfullscreen></iframe>
+                    <iframe src="https://www.google.com/maps/d/embed?mid=13EQtQZDIE8eloI_K5q1L2SJ49tU" width="100%" height="450" frameborder="0" style="border: 0" allowfullscreen></iframe>
                 </div>       
             </div>
         </div>
@@ -256,12 +258,20 @@
                 </div>
                 <div class="col-lg-4 col-md-4">
                     <h4>Stay in touch</h4>
-                    <i class="social fa fa-facebook" aria-hidden="true"></i>
-                    <i class="social fa fa-twitter" aria-hidden="true"></i>
-                    <i class="social fa fa-youtube" aria-hidden="true"></i>
-                    <i class="social fa fa-github" aria-hidden="true"></i>
+                    <img src="fonts/glyphicons-social/png/glyphicons-social-31-facebook.png">
+                    <img src="fonts/glyphicons-social/png/glyphicons-social-32-twitter.png">
+                    <img src="fonts/glyphicons-social/png/glyphicons-social-23-youtube.png">
+                    
+                    
                     <br>
                 </div>
+                
+                <div class="col-lg-4 col-md-4">
+                    <br>
+                    <p class="round1">UNUSUAL TRAVEL</p>
+                    <h6>Project Code NYPL © by Ana Gamboa - New York, NY - 2017</h6>
+                    <br>
+                </div>            
             </div>
         </div>
     </div>
@@ -285,6 +295,13 @@
         new WOW().init();
 
     </script>
+    
+    <script>
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();   
+    });
+    </script>
+    
     <script src="js/bootstrap.min.js"></script>
 </body>
 
