@@ -3,7 +3,6 @@
 /* ---------------------------- Google Fonts --------------------------  */
     @import url('https://fonts.googleapis.com/css?family=Sriracha');
     @import url('https://fonts.googleapis.com/css?family=Bad+Script|Courgette');
-    @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
     @import url('https://fonts.googleapis.com/css?family=Molle:400i');
     @import url('https://fonts.googleapis.com/css?family=Droid+Sans|PT+Sans+Narrow|Roboto');
     @import url('https://fonts.googleapis.com/css?family=Aguafina+Script');
@@ -99,11 +98,11 @@ p {
     height: 600px;
     width: 100%;
     padding: 30px 0 30px;
-    margin-top: 50px;
-    background-image: url(../images/bg.jpg);
+    margin-top: 30px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: url(../images/bg.jpg);
     color: #fff;
 }
 
@@ -161,7 +160,6 @@ p {
     .header h1 {
         
         font-size: 20px;
-        *
     }
     
     .header p {
