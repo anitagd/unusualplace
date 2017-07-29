@@ -243,7 +243,7 @@ p {
     
     padding: 50px 0 80px;
     text-align: center;
-    background-color: #3399ff;
+    background-color:  #5E97B8; /*#3399ff;*/
 }
 
 .places h2 {
@@ -351,7 +351,7 @@ p {
 .magazine {
     
     padding: 50px 0 80px;
-    background-color: #3399ff;
+    background-color:  #5E97B8; /*#3399ff;*/
     text-align: center;
     color: #fff;
 }
@@ -486,8 +486,8 @@ p {
     padding: 3px;
     border: 2px solid #5E97B8;
     margin: 0;
-    font-weight: 600
-
+    font-weight: 600;
+    font-style: italic;
 }
 
 .footer h6 {
@@ -496,7 +496,6 @@ p {
     font-weight: 700;
     font-style: italic;
 }
-
 
 
 /* Link Place.html */
@@ -586,17 +585,16 @@ background-color: #5E97B8;
     height: 750px;
 }
     
-.place1
-.place2
-.place3
-.place4
+.place1 img
+.place2 img
+.place3 img
+.place4 img
 .place5 img {
     width: 90%;
     height: 250px;
     margin: 15px 0 0 20px;
 }
-    
-    
+     
 .place1
 .place2
 .place3
@@ -604,7 +602,7 @@ background-color: #5E97B8;
 .place5 h2 {
     font-size: 20px;
     
-    }
+}
     
 .place1
 .place2
