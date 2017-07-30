@@ -307,13 +307,13 @@
     </script>
     
     <!-- Script #2 -->
-     <script>
-      $('.navbar-collapse a').click(function (e) {
+    <script>
+    $('.navbar-collapse a').click(function (e) {
+    if($('.navbar-toggle').css('display') == 'block' && !$(this).siblings().length){
         $('.navbar-collapse').collapse('toggle');
-      });
-    </script>
-    
-    <script src="js/bootstrap.min.js"></script>
+        }
+    });
+    </script>  
     
         
 </body>
