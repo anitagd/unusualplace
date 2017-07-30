@@ -196,10 +196,9 @@ p {
 
 
 .services h2 {
-    
-/*    color: #4c4c4c;*/
+
     margin: 20px 0 20px;
-        color: #4c4c4c;
+    color: #4c4c4c;
     margin: 20px 0 20px;
     font-family: 'Bad Script', cursive;
     font-weight: 700;
@@ -555,18 +554,28 @@ background-color: #5E97B8;
     
 }
 
-
-    /* OJO CON ESTO TOCA DEFINIRLO BIEN
-.place1  h5 
-.place2  h5 
-.place3  h5 
-.place4  h5 
+.place2  h5, 
+.place3  h5, 
+.place4  h5, 
 .place5  h5 {  
-    font-size: 30px;
-    font-weight: 300;
-    font-family: 'Molle', cursive;
-    padding-top: 50px;
-} */
+    color: darkblue;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+        font-family: 'PT Sans Narrow', Arial, sans-serif;
+    font-weight: bold
+} 
+
+.place1  h5 {  
+    color: burlywood;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+        font-family: 'PT Sans Narrow', Arial, sans-serif;
+    font-weight: bold
+    
+} 
+
 
 .place1  h1,
 .place2  h1,
@@ -578,10 +587,10 @@ background-color: #5E97B8;
 .place3  p,
 .place4  p,
 .place5  p,
-.place1  button 
-.place2  button 
-.place3  button 
-.place4  button 
+.place1  button, 
+.place2  button, 
+.place3  button, 
+.place4  button, 
 .place5  button {
     margin-top: 20px;
 }
