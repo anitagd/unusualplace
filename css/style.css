@@ -8,7 +8,6 @@
     @import url('https://fonts.googleapis.com/css?family=Aguafina+Script');
 
 * {
-
     padding: 0;
     margin: 0;
 }
@@ -21,20 +20,17 @@ body {
 }
 
 li {
-
     list-style: none;
-    display: inline-block
+    display: inline-block;
 }
 
 a {
-
     text-decoration: none;
     transition: all 500ms ease-in-out;
 }
 
 a:hover,
 a:active {
-
     text-decoration: none;
 }
 
@@ -45,32 +41,28 @@ h4 {
     font-weight: 700;
 }
 
-
 p {
     font-size: 15px;
     line-height: 21px;
 }
 
 .btn {
-
     transition: all 300ms ease-in-out;
     font-weight: 400 !important;
     text-transform: uppercase;
 }
 
 .btn:hover {
-
     background-color: #ededed !important;
     color: #3c3c3c !important;
     border: 1px solid #fff !important;
 }
 
 
-/*NAVIGATION*/
+/*-------- NAVIGATION SECTION --------*/
 
 
 .navbar {
-    
     background-color: #222222 !important;
     text-transform: uppercase;
     font-family: 'Sriracha', Arial, sans-serif;
@@ -78,23 +70,18 @@ p {
 }
 
 .navbar a {
-    
     color: #fff !important;
     opacity: 0.7;
 }
 
-
 .navbar a:hover {
-    
     opacity: 1;
     background-color: #111111 !important;
 }
 
-
-/*HEADER*/
+/*HEADER SECTION*/
 
 .header {
-    
     height: 600px;
     width: 100%;
     padding: 30px 0 30px;
@@ -107,81 +94,65 @@ p {
 }
 
 .header img {
-    
     height: 350px;
     width: 450px;
     margin: 70px 0 0 40px;
 }
 
 .header h2 {
-    
     font-size: 30px;
     font-weight: 400;
     padding-top: 30px;
     font-family: 'Molle', cursive;
     text-transform: full-width;
-    
 }
 
 .header p,
 .header button {
-    
     margin-top: 20px;
 }
 
-
 .header .btn {
-    
     border-radius: 0;
     margin: 40px 20px;
 }
 
-@media(max-width:768px) {
+@media(max-width:765px) {
     
     .header {
-        
         padding: 30px;
         height: 750px;
     }
     
     .header img {
-        
         width: 90%;
         height: 250px;
         margin: 15px 0 0 20px;
     }
     
     .header .btn {
-        
         font-size: 10px;
         margin-left: 15px;
     }
     
     .header h1 {
-        
         font-size: 20px;
-        *
     }
     
     .header p {
-        
         font-size: 12px;
     }
     
-    .header a
-    
-    
-}
+    .header a {
+    }
 
 
-/*SERVICES*/
+/*---------- SERVICES SECTION -----------*/ 
 
 .services {
-    
     padding: 50px 0 70px;
     text-align: center;
 }
-
 
 .services h1{
     font-family: 'Molle', cursive;
@@ -189,33 +160,26 @@ p {
 }
 
 .services h4 {
-    
     color: #4c4c4c;
     margin: 20px 0 20px;
 }
 
-
 .services h2 {
-
     margin: 20px 0 20px;
     color: #4c4c4c;
     margin: 20px 0 20px;
     font-family: 'Bad Script', cursive;
     font-weight: 700;
     text-align: center;
-
 }
 
 .services p {
-    
     color: #737373;
     font-size: 14px;
     padding-bottom: 40px;
 }
 
-
 .services i {
-    
     height: 80px;
     width: 80px;
     font-size: 30px;
@@ -225,23 +189,20 @@ p {
     color: #fff;
 }
 
+@media(max-width:765px) {
 
-@media(max-width:768px) {
-    
     .services {
         
         padding: 30px;
     }
 }
 
-
-/*PLACES*/
+/*------ PLACES SECTION ---------*/
 
 .places {
-    
     padding: 50px 0 80px;
     text-align: center;
-    background-color:  #5E97B8; /*#3399ff;*/
+    background-color:  #5E97B8;
 }
 
 .places h2 {
@@ -250,17 +211,14 @@ p {
     font-family: 'Bad Script', cursive;
     font-weight: 700;
     text-align: center;
-
 }
 
 .places p {
-    
     padding-bottom: 40px;
     color: #fff;
 }
 
 .places .packages {
-    
     padding: 30px;
     border: 1px solid #ccc;
     background-color: #fff;
@@ -269,47 +227,38 @@ p {
 }
 
 .packages h4 {
-    
     color: #4c4c4c;
 }
 
-
 .packages h5 {
-    
     color: darkblue;
     font-weight: 700;
 }
 
 .packages p {
-    
     color: #737373;
 }
 
 .packages button {
-    
     margin-top: 10px;
 }
 
-
-@media(max-width:768px) {
+@media(max-width:765px) {
     
     .places
-        
         padding: 30px;
     }
     
     .packages {
-        
         width: 80%;
         margin-left: 25px;
     }
 }
 
 
-/*MAP*/
+/*-------MAP SECTION-------*/
 
 .map {
-    
     padding: 50px 0 80px;
     text-align: center;
 }
@@ -323,41 +272,34 @@ p {
 }
 
 .map p {
-    
     color: #737373;
     text-align: center;
 }
 
 .map-frame {
-    
     height: 450px;
     width: 100%;
     margin-top: 60px;
     margin-bottom: 60px;
 }
 
-
-@media(max-width:768px) {
+@media(max-width:765px) {
     
     .map
         padding: 5px;
     }
-    
 
-/*MAGAZINE*/
+
+/*------- MAGAZINE SECTION -------*/
 
 .magazine {
-    
     padding: 50px 0 80px;
     background-color:  #5E97B8; /*#3399ff;*/
     text-align: center;
     color: #fff;
 }
 
-
 .magazine h2 { 
-    
-  /*  color: #5e5e5e;*/
     color: #4c4c4c;
     margin: 20px 0 20px;
     font-family: 'Bad Script', cursive;
@@ -365,12 +307,10 @@ p {
 }
 
 .magazine p {
-    
     padding-bottom: 30px;
 }
 
 .magazine img {
-    
     width: 180px;
     opacity: 0.6;
     cursor: pointer;
@@ -378,53 +318,42 @@ p {
     transition: all 500ms ease-in-out;
 }
 
-
 .magazine li:hover img {
-    
     opacity: 1;
 }
 
-
-/*CONTACT*/
+/*-------- CONTACT SECTION ---------*/
 
 .contact {
-    
     padding: 40px 0 70px;
     text-align: center;
 }
 
 .contact p {
-    
     padding-bottom: 80px;
     color: #737373;
 }
 
 .contact h2 {
-    
     color: #4c4c4c;
     margin: 10px 0 10px;
     font-family: 'Bad Script', cursive;
     font-weight: 700;
 }
     
-
 .contact .input-group {
-    
     margin-bottom: 25px;
 }
 
 .contact .form-control {
-    
     border-radius: 0 !important;
 }
 
 .contact span {
-    
     border-radius: 0 !important;
 }
 
 .contact .btn {
-    
     border-radius: 0;
     width: 100%;
     font-size: 15px;
@@ -433,24 +362,19 @@ p {
 }
 
 .contact .btn:hover {
-    
     background-color: #a85959 !important;
     color: #fff !important;
 }
 
-
-/*FOOTER*/
+/*------ SECTION FOOTER --------*/
 
 .footer {
-    
     padding: 30px;
     color: #cccccc;
     background-color: #222222;
 }
 
-
 .footer .social {
-    
     font-size: 20px;
     height: 30px;
     width: 30px;
@@ -461,9 +385,7 @@ p {
     margin-right: 5px;
 }
 
-
 .footer input {
-    
     height: 40px;
     width: 160px;
     padding: 5px;
@@ -473,7 +395,6 @@ p {
 }
 
 .footer .btn {
-    
     padding: 10px 5px 10px;
     margin: -3px 0 0 5px;
 }
@@ -496,14 +417,14 @@ p {
 }
 
 
-/* Link Place.html */
+/*----------------- Link Place.html ---------------*/
 
-/*PLACES SECTION*/
 
-.place1
-.place2   
-.place3  
-.place4  
+/*-------- PLACES SECTION -------*/
+.place1,
+.place2,   
+.place3,  
+.place4,  
 .place5 {
     height: 650px;
     width: 100%;
@@ -574,7 +495,6 @@ background-color: #5E97B8;
     font-weight: bold
 } 
 
-
 .place1  h1,
 .place2  h1,
 .place3  h1,
@@ -594,7 +514,7 @@ background-color: #5E97B8;
 }
 
 
-@media(max-width:768px) {
+@media(max-width:765px) {
     
 .place1
 .place2
@@ -621,7 +541,6 @@ background-color: #5E97B8;
 .place4
 .place5 h2 {
     font-size: 20px;
-    
 }
     
 .place1
@@ -633,4 +552,4 @@ background-color: #5E97B8;
     }
     
 }
-/*END LINK places.html SECTION*/
+/*------- END LINK places.html SECTION -------*/

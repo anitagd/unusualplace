@@ -29,17 +29,18 @@
 
     <!--NAV SECTION-->
 
-    <div id="myNavbar" id="hideonclick" class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 </button>
+
                 <a href="index.html" class="navbar-brand"><span style="color:#5E97B8;font-size: 140%;font-weight:700">Unusual Travel</span></a>
             </div>
-            <div class="navbar-collapse collapse">
+            <div class="navbar-collapse collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#services">services</a></li>   
@@ -279,6 +280,14 @@
 <!---- END Footer ----->
 
 
+
+
+
+
+
+
+
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -288,7 +297,6 @@
     <script src="js/wow.min.js"></script>
     <script>
         new WOW().init();
-
     </script>
     
     <!-- Script #1 -->
@@ -299,15 +307,11 @@
     </script>
     
     <!-- Script #2 -->
-    <script>
-    $('.navbar-collapse a').click(function (e) {
-    if($('.navbar-toggle').css('display') == 'block' && !$(this).siblings().length){
+     <script>
+      $('.navbar-collapse a').click(function (e) {
         $('.navbar-collapse').collapse('toggle');
-        }
-    });
-        </script>
-
-    
+      });
+    </script>
     
     <script src="js/bootstrap.min.js"></script>
     
