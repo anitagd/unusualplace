@@ -59,7 +59,7 @@ p {
 }
 
 
-/*-------- NAVIGATION SECTION --------*/
+/* --------------NAVIGATION SECTION -------*/
 
 
 .navbar {
@@ -76,10 +76,10 @@ p {
 
 .navbar a:hover {
     opacity: 1;
-    background-color: #111111 !important;
+    background-color: #7D5339 !important;
 }
 
-/*HEADER SECTION*/
+/* -------------HEADER SECTION -------*/
 
 .header {
     height: 600px;
@@ -112,6 +112,7 @@ p {
     margin-top: 20px;
 }
 
+
 .header .btn {
     border-radius: 0;
     margin: 40px 20px;
@@ -137,22 +138,24 @@ p {
     
     .header h1 {
         font-size: 20px;
+        *
     }
     
     .header p {
+        
         font-size: 12px;
     }
     
-    .header a {
-    }
+}
 
 
-/*---------- SERVICES SECTION -----------*/ 
+/* ---------SERVICES SECTION -------*/
 
 .services {
     padding: 50px 0 70px;
     text-align: center;
 }
+
 
 .services h1{
     font-family: 'Molle', cursive;
@@ -164,6 +167,7 @@ p {
     margin: 20px 0 20px;
 }
 
+
 .services h2 {
     margin: 20px 0 20px;
     color: #4c4c4c;
@@ -171,6 +175,7 @@ p {
     font-family: 'Bad Script', cursive;
     font-weight: 700;
     text-align: center;
+
 }
 
 .services p {
@@ -189,17 +194,24 @@ p {
     color: #fff;
 }
 
-@media(max-width:765px) {
 
+@media(max-width:765px) {
+    
     .services {
         
         padding: 30px;
     }
+    
+    .services h2 {
+     font-family: 'Molle', cursive;
+    }
 }
 
-/*------ PLACES SECTION ---------*/
+
+/* -----------PLACES SECTION -------*/
 
 .places {
+    
     padding: 50px 0 80px;
     text-align: center;
     background-color:  #5E97B8;
@@ -230,6 +242,7 @@ p {
     color: #4c4c4c;
 }
 
+
 .packages h5 {
     color: darkblue;
     font-weight: 700;
@@ -243,22 +256,26 @@ p {
     margin-top: 10px;
 }
 
+
 @media(max-width:765px) {
     
     .places
+        
         padding: 30px;
     }
     
     .packages {
+        
         width: 80%;
         margin-left: 25px;
     }
 }
 
 
-/*-------MAP SECTION-------*/
+/* --------MAP SECTION -------*/
 
 .map {
+    
     padding: 50px 0 80px;
     text-align: center;
 }
@@ -272,32 +289,37 @@ p {
 }
 
 .map p {
+    
     color: #737373;
     text-align: center;
 }
 
 .map-frame {
+    
     height: 450px;
     width: 100%;
     margin-top: 60px;
     margin-bottom: 60px;
 }
 
+
 @media(max-width:765px) {
     
     .map
         padding: 5px;
     }
+    
 
-
-/*------- MAGAZINE SECTION -------*/
+/* ---------MAGAZINE SECTION -------*/
 
 .magazine {
+    
     padding: 50px 0 80px;
-    background-color:  #5E97B8; /*#3399ff;*/
+    background-color:  #5E97B8; 
     text-align: center;
     color: #fff;
 }
+
 
 .magazine h2 { 
     color: #4c4c4c;
@@ -307,10 +329,12 @@ p {
 }
 
 .magazine p {
+    
     padding-bottom: 30px;
 }
 
 .magazine img {
+    
     width: 180px;
     opacity: 0.6;
     cursor: pointer;
@@ -318,34 +342,42 @@ p {
     transition: all 500ms ease-in-out;
 }
 
+
 .magazine li:hover img {
+    
     opacity: 1;
 }
 
-/*-------- CONTACT SECTION ---------*/
+/* -----------CONTACT SECTION -------*/
 
 .contact {
+    
     padding: 40px 0 70px;
     text-align: center;
 }
 
 .contact p {
+    
     padding-bottom: 80px;
     color: #737373;
 }
 
 .contact h2 {
+    
     color: #4c4c4c;
     margin: 10px 0 10px;
     font-family: 'Bad Script', cursive;
     font-weight: 700;
 }
     
+
 .contact .input-group {
+    
     margin-bottom: 25px;
 }
 
 .contact .form-control {
+    
     border-radius: 0 !important;
 }
 
@@ -366,13 +398,15 @@ p {
     color: #fff !important;
 }
 
-/*------ SECTION FOOTER --------*/
+
+/* ---------FOOTER SECTION -------*/
 
 .footer {
     padding: 30px;
     color: #cccccc;
     background-color: #222222;
 }
+
 
 .footer .social {
     font-size: 20px;
@@ -384,6 +418,7 @@ p {
     margin-bottom: 10px;
     margin-right: 5px;
 }
+
 
 .footer input {
     height: 40px;
@@ -417,14 +452,14 @@ p {
 }
 
 
-/*----------------- Link Place.html ---------------*/
+/* ----------- Link Place.html SECTION -------*/
 
+/* -----------PLACES SECTION -------*/
 
-/*-------- PLACES SECTION -------*/
-.place1,
-.place2,   
-.place3,  
-.place4,  
+.place1
+.place2   
+.place3  
+.place4  
 .place5 {
     height: 650px;
     width: 100%;
@@ -491,8 +526,9 @@ background-color: #5E97B8;
     font-size: 18px;
     font-weight: 500;
     text-align: center;
-    font-family: 'PT Sans Narrow', Arial, sans-serif;
+        font-family: 'PT Sans Narrow', Arial, sans-serif;
     font-weight: bold
+    
 } 
 
 .place1  h1,
@@ -541,6 +577,7 @@ background-color: #5E97B8;
 .place4
 .place5 h2 {
     font-size: 20px;
+    
 }
     
 .place1
@@ -552,4 +589,4 @@ background-color: #5E97B8;
     }
     
 }
-/*------- END LINK places.html SECTION -------*/
+/* -----------END LINK places.html SECTIONSECTION -------*/
