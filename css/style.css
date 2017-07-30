@@ -551,7 +551,6 @@ background-color: #5E97B8;
     font-weight: 300;
     font-family: 'Molle', cursive;
     padding-top: 50px;
-    
 }
 
 .place2  h5, 
@@ -562,7 +561,7 @@ background-color: #5E97B8;
     font-size: 18px;
     font-weight: 500;
     text-align: center;
-        font-family: 'PT Sans Narrow', Arial, sans-serif;
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
     font-weight: bold
 } 
 
@@ -571,9 +570,8 @@ background-color: #5E97B8;
     font-size: 18px;
     font-weight: 500;
     text-align: center;
-        font-family: 'PT Sans Narrow', Arial, sans-serif;
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
     font-weight: bold
-    
 } 
 
 
