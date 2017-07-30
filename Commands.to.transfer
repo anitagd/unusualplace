@@ -1,0 +1,5 @@
+upload.command.txt
+
+git add --all
+git commit -m "added html to index"
+git push
